@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+
+# Diretório com os arquivoc compilados
+dist/
+build/
+
+#Typescript cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# editor-specific files
+#.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+#Os-specific files
+.DS_Store
+*.lock
+
+#Other files
+coverage/
+tmp/
